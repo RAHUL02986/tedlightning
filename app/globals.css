@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Astro Lighting-Inspired Clean Editorial Theme */
+    --background: 0 0% 100%;
+    --foreground: 0 0% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 12%;
+
+    /* Soft black for primary */
+    --primary: 0 0% 12%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Subtle warm accent */
+    --accent-gold: 30 30% 55%;
+    --accent-gold-foreground: 0 0% 12%;
+
+    /* Very light gray for secondary */
+    --secondary: 0 0% 97%;
+    --secondary-foreground: 0 0% 12%;
+
+    --muted: 0 0% 97%;
+    --muted-foreground: 0 0% 50%;
+
+    --accent: 0 0% 97%;
+    --accent-foreground: 0 0% 12%;
+
+    --destructive: 0 72% 50%;
+    --destructive-foreground: 0 85% 97%;
+
+    --border: 0 0% 92%;
+    --input: 0 0% 92%;
+    --ring: 0 0% 12%;
+
+    --radius: 0.75rem;
+
+    /* Typography - Elegant thin weights */
+    --font-heading: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-body: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+
+    /* Refined shadows */
+    --shadow-sm: 0 1px 2px 0 hsl(0 0% 0% / 0.02);
+    --shadow-md: 0 4px 16px -4px hsl(0 0% 0% / 0.06);
+    --shadow-lg: 0 16px 32px -8px hsl(0 0% 0% / 0.08);
+    --shadow-xl: 0 24px 48px -12px hsl(0 0% 0% / 0.1);
+    --shadow-card: 0 2px 8px 0 hsl(0 0% 0% / 0.04);
+    --shadow-card-hover: 0 12px 24px -6px hsl(0 0% 0% / 0.1);
+
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 0 0% 12%;
+    --sidebar-primary: 0 0% 12%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 0 0% 97%;
+    --sidebar-accent-foreground: 0 0% 12%;
+    --sidebar-border: 0 0% 92%;
+    --sidebar-ring: 0 0% 12%;
+    --chart-1: 0 0% 20%;
+    --chart-2: 0 0% 35%;
+    --chart-3: 0 0% 50%;
+    --chart-4: 0 0% 65%;
+    --chart-5: 30 30% 55%;
+    --sidebar: 0 0% 100%;
+  }
+
+  .dark {
+    --background: 0 0% 6%;
+    --foreground: 0 0% 96%;
+    --card: 0 0% 9%;
+    --card-foreground: 0 0% 96%;
+    --popover: 0 0% 9%;
+    --popover-foreground: 0 0% 96%;
+    --primary: 0 0% 96%;
+    --primary-foreground: 0 0% 6%;
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 0 0% 96%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 55%;
+    --accent: 0 0% 12%;
+    --accent-foreground: 0 0% 96%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 85% 97%;
+    --border: 0 0% 18%;
+    --input: 0 0% 18%;
+    --ring: 0 0% 96%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-body);
+    font-weight: 300;
+    letter-spacing: 0.01em;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    @apply font-light tracking-tight;
+  }
+
+  /* Global rounded corners for images */
+  img {
+    @apply rounded-xl;
+  }
+
+  /* Global rounded corners for icons in containers */
+  .icon-rounded {
+    @apply rounded-lg;
+  }
+
+  ::selection {
+    background: hsl(var(--primary) / 0.08);
+    color: hsl(var(--foreground));
+  }
+}
+
+@layer components {
+  .container-main {
+    @apply max-w-[1600px] mx-auto px-6 sm:px-10 lg:px-16;
+  }
+
+  .section-padding {
+    @apply py-20 md:py-28 lg:py-36;
+  }
+
+  .heading-xl {
+    @apply text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-extralight;
+    font-family: var(--font-heading);
+    line-height: 1.0;
+    letter-spacing: -0.03em;
+  }
+
+  .heading-lg {
+    @apply text-4xl md:text-5xl lg:text-6xl font-light;
+    font-family: var(--font-heading);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+  }
+
+  .heading-md {
+    @apply text-3xl md:text-4xl font-light;
+    font-family: var(--font-heading);
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+  }
+
+  .heading-sm {
+    @apply text-2xl font-light;
+    font-family: var(--font-heading);
+    line-height: 1.2;
+  }
+
+  .text-body {
+    @apply text-base font-light leading-relaxed;
+    font-family: var(--font-body);
+  }
+
+  .text-body-lg {
+    @apply text-lg font-light leading-relaxed;
+    font-family: var(--font-body);
+  }
+
+  .section-label {
+    @apply inline-block text-[11px] font-normal uppercase tracking-[0.2em] mb-6;
+    color: hsl(var(--muted-foreground));
+  }
+
+  /* Elegant button style */
+  .btn-elegant {
+    @apply inline-flex items-center justify-center text-[13px] font-normal tracking-[0.15em] uppercase px-10 py-4 transition-all duration-500;
+    background: hsl(var(--primary));
+    color: hsl(var(--primary-foreground));
+  }
+
+  .btn-elegant:hover {
+    background: hsl(var(--primary) / 0.8);
+  }
+
+  /* Ghost button */
+  .btn-ghost-elegant {
+    @apply inline-flex items-center justify-center text-[13px] font-normal tracking-[0.15em] uppercase px-10 py-4 border transition-all duration-500;
+    border-color: hsl(var(--primary) / 0.2);
+    color: hsl(var(--primary));
+    background: transparent;
+  }
+
+  .btn-ghost-elegant:hover {
+    border-color: hsl(var(--primary));
+    background: hsl(var(--primary));
+    color: hsl(var(--primary-foreground));
+  }
+
+  /* Simple text link */
+  .link-explore {
+    @apply inline-flex items-center gap-3 text-[13px] font-normal tracking-[0.12em] uppercase transition-all duration-300;
+  }
+
+  .link-explore:hover {
+    gap: 1rem;
+  }
+
+  /* Underline animation */
+  .link-underline {
+    @apply relative;
+  }
+
+  .link-underline::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-full h-px bg-current;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .link-underline:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .font-heading {
+    font-family: var(--font-heading);
+  }
+
+  .font-body {
+    font-family: var(--font-body);
+  }
+
+  .animate-fade-up {
+    animation: fadeUp 1s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 1s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  }
+
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+}
+
+/* Zoho SalesIQ Widget Position */
+.zsiq_floatmain,
+.zsiq_float {
+  left: 20px !important;
+  right: auto !important;
+  bottom: 20px !important;
+}
+
+@media (max-width: 768px) {
+  .zsiq_floatmain,
+  .zsiq_float {
+    left: 12px !important;
+    right: auto !important;
+    bottom: 16px !important;
+  }
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+    

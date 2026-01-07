@@ -1,0 +1,191 @@
+{
+  "nav": {
+    "home": "Tahanan",
+    "products": "Mga Produkto",
+    "aboutUs": "Tungkol sa Amin",
+    "projects": "Mga Proyekto",
+    "blog": "Blog",
+    "qa": "Tanong at Sagot",
+    "contactUs": "Makipag-ugnayan",
+    "viewAllProducts": "Tingnan ang lahat ng produkto"
+  },
+  "tagline": "Matalinong Solar. Matatag na Kuryente.",
+  "hero": {
+    "introducing": "Ipinapakilala",
+    "solarPro": "Solar Pro",
+    "exploreNow": "Tuklasin ngayon",
+    "precisionMeets": "Katumpakan na nakakatugon sa",
+    "performance": "pagganap",
+    "discoverMore": "Tuklasin pa",
+    "urbanLighting": "Urban na Ilaw",
+    "solutions": "Mga Solusyon",
+    "viewProjects": "Tingnan ang mga proyekto",
+    "quality": "Kalidad",
+    "manufacturing": "Paggawa",
+    "aboutUs": "Tungkol sa amin"
+  },
+  "common": {
+    "readMore": "Magbasa Pa",
+    "contactUs": "Makipag-ugnayan",
+    "getQuote": "Kumuha ng Quote",
+    "learnMore": "Matuto Pa",
+    "viewAll": "Tingnan Lahat",
+    "search": "Maghanap",
+    "close": "Isara",
+    "previous": "Nakaraan",
+    "next": "Susunod",
+    "exploreMore": "Tuklasin Pa",
+    "viewDetails": "Tingnan ang Detalye",
+    "featured": "Tampok",
+    "sendInquiry": "Magpadala ng Katanungan",
+    "getRecommendation": "Kumuha ng Rekomendasyon",
+    "viewAllFAQs": "Tingnan lahat ng FAQ"
+  },
+  "products": {
+    "title": "Mga Kategorya ng Produkto",
+    "subtitle": "Kumpletong Solusyon sa Ilaw",
+    "description": "Mula sa mga outdoor na kapaligiran hanggang sa mga pabrika, ang aming komprehensibong hanay ng mga LED lighting solution ay naghahatid ng pagganap, kahusayan, at pagiging maaasahan.",
+    "solarLighting": "Solar na Ilaw",
+    "solarLightingDesc": "Sustainable na solar-powered na ilaw para sa mga kalsada, daanan, at pampublikong lugar.",
+    "energyStorage": "Mga Sistema ng Pag-iimbak ng Enerhiya",
+    "energyStorageDesc": "Advanced na solusyon sa baterya para sa maaasahang pag-iimbak ng enerhiya at pamamahala ng kuryente.",
+    "outdoorLed": "Outdoor LED na Ilaw",
+    "outdoorLedDesc": "Professional-grade na LED fixtures na dinisenyo para sa outdoor na kapaligiran.",
+    "industrial": "Industrial na Ilaw",
+    "industrialDesc": "High-performance na solusyon sa ilaw para sa mga pasilidad ng industriya.",
+    "newProducts": "Mga Bagong Produkto"
+  },
+  "company": {
+    "title": "Tungkol sa TedLighting",
+    "subtitle": "Pokus sa Paggawa, Hindi Kwento ng Kalakalan",
+    "description": "Ang TedLighting ay isang propesyonal na tagagawa ng solar-powered street light na may mataas na kalidad at sampung taon ng karanasan. Kinokontrol namin ang buong proseso ng produksyon—mula sa pagkuha ng mga sangkap hanggang sa huling pagtitipon.",
+    "countries": "Mga Bansa",
+    "projects": "Mga Proyekto",
+    "years": "Mga Taon",
+    "teamMembers": "Mga Miyembro ng Team",
+    "factory": "20,000 m² na Pabrika",
+    "modernProduction": "Modernong Production Base",
+    "productionLine": "Linya ng Produksyon",
+    "precisionManufacturing": "Precision Manufacturing",
+    "qualityControl": "Quality Control",
+    "testingStandards": "100% Testing Standards",
+    "globalLogistics": "Global Logistics",
+    "worldwideDistribution": "Pamamahagi sa Buong Mundo",
+    "rdCenter": "R&D Center",
+    "innovationHub": "Innovation Hub"
+  },
+  "features": {
+    "cbCertification": "CB Certification",
+    "cbDesc": "Ang unang high-power integrated solar street light sa mundo na may CB IECEE Saber certification.",
+    "iso": "ISO9001:2015",
+    "isoDesc": "Lahat ng raw materials ay 100% tested. 3-araw na aging inspection bago ipadala.",
+    "originalDesign": "Orihinal na Disenyo",
+    "designDesc": "Global na natatanging patent design. German Red Dot Award winner.",
+    "lifespan": "10-15 Taon na Buhay",
+    "lifespanDesc": "Tunay na buhay para sa mga proyekto ng gobyerno, hindi marketing claims."
+  },
+  "applications": {
+    "title": "Mga Aplikasyon",
+    "subtitle": "Kung Saan Kami Nag-deploy",
+    "municipal": "Imprastraktura ng munisipalidad at gobyerno",
+    "industrial": "Mga industrial park at logistics facilities",
+    "commercial": "Mga commercial compound at campus",
+    "remote": "Malalayong at off-grid na lokasyon",
+    "hybrid": "Hybrid solar + grid outdoor projects"
+  },
+  "trustBadges": {
+    "yearsStrong": "15+ Taon na Malakas",
+    "yearsDesc": "Libu-libong pag-install sa buong mundo ang nag-equip sa aming team ng walang kapantay na kadalubhasaan na naglilingkod sa bawat proyekto.",
+    "tailored": "Mga Naka-tailor na Solusyon",
+    "tailoredDesc": "Nakikipagtulungan kami ng malapit sa bawat kliyente, nagdidisenyo ng mga custom na solusyon at nagbibigay ng dedicated na konsultasyon mula simula hanggang katapusan.",
+    "components": "Pinakamahusay na Mga Sangkap",
+    "componentsDesc": "Ang aming mga partnership sa Tier 1 manufacturers ay nagbibigay sa mga customer ng mga state-of-the-art na sangkap na naghahatid ng kalidad, pangmatagalang ilaw.",
+    "warranty": "Industry-Leading Warranty",
+    "warrantyDesc": "Nag-aalok kami ng hanggang 10-taong, buong-produkto na warranty sa aming mga sistema, na nagbibigay sa iyo ng ganap na kapayapaan ng isip."
+  },
+  "contact": {
+    "title": "Makipag-ugnayan sa Amin",
+    "subtitle": "Pag-usapan natin ang iyong proyekto",
+    "description": "Kung nagpaplano ka ng bagong pag-install o nag-a-upgrade ng kasalukuyang imprastraktura, ang aming team ay handang tumulong sa iyo na mahanap ang perpektong solusyon sa ilaw.",
+    "description2": "Sabihin sa amin ang tungkol sa mga kinakailangan ng iyong proyekto. Ang aming technical team ay magbibigay ng customized na solusyon at competitive na quotation sa loob ng 24 oras.",
+    "freeConsultation": "Libreng technical consultation",
+    "customSpecs": "Custom na product specifications",
+    "roiAnalysis": "Project ROI analysis",
+    "phone": "Telepono",
+    "email": "Email",
+    "address": "Address",
+    "workingHours": "Oras ng Trabaho",
+    "workingHoursValue": "Lun - Sab: 9:00 AM - 6:00 PM (GMT+8)",
+    "fullName": "Buong Pangalan",
+    "yourName": "Iyong pangalan",
+    "yourEmail": "iyong@email.com",
+    "phoneWhatsapp": "Telepono / WhatsApp",
+    "country": "Bansa",
+    "yourCountry": "Iyong bansa",
+    "businessType": "Uri ng Negosyo",
+    "selectType": "Pumili ng uri",
+    "application": "Aplikasyon",
+    "selectApplication": "Pumili ng aplikasyon",
+    "estimatedQuantity": "Tinatayang Dami",
+    "quantityPlaceholder": "hal., 100-500 units",
+    "projectDetails": "Mga Detalye ng Proyekto",
+    "projectPlaceholder": "Sabihin sa amin ang tungkol sa mga kinakailangan ng iyong proyekto, specifications, o anumang mga katanungan...",
+    "responseTime": "Karaniwang sumasagot kami sa loob ng 24 oras sa mga araw ng negosyo."
+  },
+  "businessTypes": {
+    "distributor": "Distributor",
+    "trader": "Trader",
+    "constructor": "Constructor/EPC",
+    "government": "Ahensya ng Gobyerno",
+    "endUser": "End User",
+    "other": "Iba pa"
+  },
+  "applicationTypes": {
+    "streetLighting": "Street Lighting",
+    "highwayLighting": "Highway Lighting",
+    "industrialPark": "Industrial Park",
+    "commercialArea": "Commercial Area",
+    "residential": "Residential Community",
+    "government": "Government Project",
+    "other": "Iba pa"
+  },
+  "cta": {
+    "title": "Magsimula",
+    "subtitle": "Tingnan Kung Ang Aming Solusyon Ay Akma Sa Iyong Proyekto",
+    "description": "Sabihin sa amin ang iyong lokasyon, aplikasyon, at kinakailangang oras ng operasyon. Magrerekomenda kami ng configuration na gumagana sa tunay na kondisyon."
+  },
+  "faq": {
+    "title": "Mga Madalas Itanong",
+    "q1": "Manufacturer ba kayo o trading company?",
+    "a1": "Kami ay direktang manufacturer na may in-house production, testing, at quality control.",
+    "q2": "Sino ang inyong kasama sa trabaho?",
+    "a2": "Nagsusuplay kami sa mga distributor, EPC contractor, at mga buyer ng government project.",
+    "q3": "Anong mga market ang inyong sinaserbisyuhan?",
+    "a3": "Ang aming mga produkto ay naka-deploy sa buong Southeast Asia, Africa, Middle East, at Latin America.",
+    "q4": "Sinusuportahan ba ninyo ang project-based configurations?",
+    "a4": "Oo. Ang mga system configuration ay inaayos batay sa lokasyon, usage profile, at mga kinakailangan ng proyekto.",
+    "q5": "Paano ako makakakuha ng quotation?",
+    "a5": "Isumite ang mga detalye ng iyong proyekto o mga kinakailangan sa aplikasyon, at ang aming team ay magrerekomenda ng angkop na configuration."
+  },
+  "footer": {
+    "description": "Propesyonal na tagagawa ng solar at LED lighting na may 15+ taon ng engineering excellence. Pinagkakatiwalaan ng mga proyekto sa 160+ na bansa.",
+    "products": "Mga Produkto",
+    "company": "Mabilisang Link",
+    "followUs": "Sundan Kami",
+    "allRightsReserved": "Lahat ng karapatan ay nakalaan",
+    "privacyPolicy": "Patakaran sa Privacy",
+    "termsConditions": "Mga Tuntunin at Kondisyon"
+  },
+  "testimonials": {
+    "title": "Ano ang Sinasabi ng Aming mga Partner",
+    "subtitle": "Tunay na resulta mula sa aming mga global partner"
+  },
+  "process": {
+    "title": "Paano Kami Nagtatrabaho",
+    "subtitle": "Ang Aming Proseso"
+  },
+  "partners": {
+    "title": "Pinagkakatiwalaan sa Buong Mundo",
+    "subtitle": "Ang Aming mga Partner"
+  }
+}

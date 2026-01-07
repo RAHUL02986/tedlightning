@@ -1,0 +1,191 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "products": "Produits",
+    "aboutUs": "À Propos",
+    "projects": "Projets",
+    "blog": "Blog",
+    "qa": "FAQ",
+    "contactUs": "Contact",
+    "viewAllProducts": "Voir tous les produits"
+  },
+  "tagline": "Solaire Intelligent. Énergie Stable.",
+  "hero": {
+    "introducing": "Présentation",
+    "solarPro": "Solar Pro",
+    "exploreNow": "Explorer maintenant",
+    "precisionMeets": "La précision rencontre",
+    "performance": "la performance",
+    "discoverMore": "Découvrir plus",
+    "urbanLighting": "Éclairage Urbain",
+    "solutions": "Solutions",
+    "viewProjects": "Voir les projets",
+    "quality": "Qualité",
+    "manufacturing": "Fabrication",
+    "aboutUs": "À propos de nous"
+  },
+  "common": {
+    "readMore": "Lire Plus",
+    "contactUs": "Contactez-nous",
+    "getQuote": "Demander un Devis",
+    "learnMore": "En Savoir Plus",
+    "viewAll": "Voir Tout",
+    "search": "Rechercher",
+    "close": "Fermer",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "exploreMore": "Explorer Plus",
+    "viewDetails": "Voir les Détails",
+    "featured": "En Vedette",
+    "sendInquiry": "Envoyer une Demande",
+    "getRecommendation": "Obtenir une Recommandation",
+    "viewAllFAQs": "Voir toutes les FAQ"
+  },
+  "products": {
+    "title": "Catégories de Produits",
+    "subtitle": "Solutions d'Éclairage Complètes",
+    "description": "Des environnements extérieurs aux installations industrielles, notre gamme complète de solutions d'éclairage LED offre performance, efficacité et fiabilité.",
+    "solarLighting": "Éclairage Solaire",
+    "solarLightingDesc": "Éclairage durable alimenté par l'énergie solaire pour les rues, les chemins et les espaces publics.",
+    "energyStorage": "Systèmes de Stockage d'Énergie",
+    "energyStorageDesc": "Solutions de batteries avancées pour un stockage d'énergie fiable et une gestion de l'alimentation.",
+    "outdoorLed": "Éclairage LED Extérieur",
+    "outdoorLedDesc": "Luminaires LED de qualité professionnelle conçus pour les environnements extérieurs.",
+    "industrial": "Éclairage Industriel",
+    "industrialDesc": "Solutions d'éclairage haute performance pour les installations industrielles.",
+    "newProducts": "Nouveaux Produits"
+  },
+  "company": {
+    "title": "À Propos de TedLighting",
+    "subtitle": "Focus Fabricant, Pas Histoire de Commerce",
+    "description": "TedLighting est un fabricant professionnel de lampadaires solaires avec une haute qualité et dix ans d'expérience. Nous contrôlons tout le processus de production — de l'approvisionnement en composants à l'assemblage final.",
+    "countries": "Pays",
+    "projects": "Projets",
+    "years": "Années",
+    "teamMembers": "Membres de l'Équipe",
+    "factory": "Usine de 20 000 m²",
+    "modernProduction": "Base de Production Moderne",
+    "productionLine": "Ligne de Production",
+    "precisionManufacturing": "Fabrication de Précision",
+    "qualityControl": "Contrôle Qualité",
+    "testingStandards": "Standards de Test 100%",
+    "globalLogistics": "Logistique Mondiale",
+    "worldwideDistribution": "Distribution Mondiale",
+    "rdCenter": "Centre R&D",
+    "innovationHub": "Centre d'Innovation"
+  },
+  "features": {
+    "cbCertification": "Certification CB",
+    "cbDesc": "Premier lampadaire solaire intégré haute puissance au monde avec certification CB IECEE Saber.",
+    "iso": "ISO9001:2015",
+    "isoDesc": "Toutes les matières premières sont testées à 100%. Inspection de vieillissement de 3 jours avant expédition.",
+    "originalDesign": "Design Original",
+    "designDesc": "Design breveté unique au monde. Lauréat du prix German Red Dot.",
+    "lifespan": "Durée de Vie 10-15 Ans",
+    "lifespanDesc": "Durée de vie réelle pour les projets gouvernementaux, pas des allégations marketing."
+  },
+  "applications": {
+    "title": "Applications",
+    "subtitle": "Où Nous Déployons",
+    "municipal": "Infrastructure municipale et gouvernementale",
+    "industrial": "Parcs industriels et installations logistiques",
+    "commercial": "Complexes commerciaux et campus",
+    "remote": "Sites isolés et hors réseau",
+    "hybrid": "Projets extérieurs hybrides solaire + réseau"
+  },
+  "trustBadges": {
+    "yearsStrong": "15+ Ans de Force",
+    "yearsDesc": "Des milliers d'installations à travers le monde ont doté notre équipe d'une expertise inégalée au service de chaque projet.",
+    "tailored": "Solutions Sur Mesure",
+    "tailoredDesc": "Nous collaborons étroitement avec chaque client, concevant des solutions personnalisées et fournissant une consultation dédiée du début à la fin.",
+    "components": "Composants de Première Classe",
+    "componentsDesc": "Nos partenariats avec des fabricants de niveau 1 offrent aux clients des composants de pointe qui fournissent une lumière de qualité durable.",
+    "warranty": "Garantie Leader du Secteur",
+    "warrantyDesc": "Nous offrons jusqu'à 10 ans de garantie complète sur nos systèmes, vous donnant une tranquillité d'esprit totale."
+  },
+  "contact": {
+    "title": "Contactez-Nous",
+    "subtitle": "Discutons de votre projet",
+    "description": "Que vous planifiez une nouvelle installation ou la mise à niveau d'une infrastructure existante, notre équipe est prête à vous aider à trouver la solution d'éclairage parfaite.",
+    "description2": "Parlez-nous des exigences de votre projet. Notre équipe technique fournira une solution personnalisée et un devis compétitif dans les 24 heures.",
+    "freeConsultation": "Consultation technique gratuite",
+    "customSpecs": "Spécifications produit personnalisées",
+    "roiAnalysis": "Analyse ROI du projet",
+    "phone": "Téléphone",
+    "email": "Email",
+    "address": "Adresse",
+    "workingHours": "Heures de Travail",
+    "workingHoursValue": "Lun - Sam: 9h00 - 18h00 (GMT+8)",
+    "fullName": "Nom Complet",
+    "yourName": "Votre nom",
+    "yourEmail": "votre@email.com",
+    "phoneWhatsapp": "Téléphone / WhatsApp",
+    "country": "Pays",
+    "yourCountry": "Votre pays",
+    "businessType": "Type d'Entreprise",
+    "selectType": "Sélectionner le type",
+    "application": "Application",
+    "selectApplication": "Sélectionner l'application",
+    "estimatedQuantity": "Quantité Estimée",
+    "quantityPlaceholder": "ex., 100-500 unités",
+    "projectDetails": "Détails du Projet",
+    "projectPlaceholder": "Parlez-nous des exigences de votre projet, spécifications ou questions...",
+    "responseTime": "Nous répondons généralement sous 24 heures les jours ouvrables."
+  },
+  "businessTypes": {
+    "distributor": "Distributeur",
+    "trader": "Négociant",
+    "constructor": "Constructeur/EPC",
+    "government": "Agence Gouvernementale",
+    "endUser": "Utilisateur Final",
+    "other": "Autre"
+  },
+  "applicationTypes": {
+    "streetLighting": "Éclairage de Rue",
+    "highwayLighting": "Éclairage d'Autoroute",
+    "industrialPark": "Parc Industriel",
+    "commercialArea": "Zone Commerciale",
+    "residential": "Communauté Résidentielle",
+    "government": "Projet Gouvernemental",
+    "other": "Autre"
+  },
+  "cta": {
+    "title": "Commencer",
+    "subtitle": "Vérifiez Si Notre Solution Convient à Votre Projet",
+    "description": "Indiquez-nous votre emplacement, application et heures de fonctionnement requises. Nous vous recommanderons une configuration adaptée aux conditions réelles."
+  },
+  "faq": {
+    "title": "Questions Fréquemment Posées",
+    "q1": "Êtes-vous fabricant ou société de négoce?",
+    "a1": "Nous sommes un fabricant direct avec production, tests et contrôle qualité en interne.",
+    "q2": "Avec qui travaillez-vous?",
+    "a2": "Nous fournissons distributeurs, entrepreneurs EPC et acheteurs de projets gouvernementaux.",
+    "q3": "Quels marchés desservez-vous?",
+    "a3": "Nos produits sont déployés en Asie du Sud-Est, Afrique, Moyen-Orient et Amérique Latine.",
+    "q4": "Supportez-vous les configurations basées sur projet?",
+    "a4": "Oui. Les configurations système sont ajustées selon l'emplacement, le profil d'utilisation et les exigences du projet.",
+    "q5": "Comment obtenir un devis?",
+    "a5": "Soumettez les détails de votre projet ou vos exigences, et notre équipe recommandera une configuration adaptée."
+  },
+  "footer": {
+    "description": "Fabricant professionnel d'éclairage solaire et LED avec plus de 15 ans d'excellence en ingénierie. Confiance de projets dans plus de 160 pays.",
+    "products": "Produits",
+    "company": "Liens Rapides",
+    "followUs": "Suivez-Nous",
+    "allRightsReserved": "Tous droits réservés",
+    "privacyPolicy": "Politique de Confidentialité",
+    "termsConditions": "Conditions Générales"
+  },
+  "testimonials": {
+    "title": "Ce Que Disent Nos Partenaires",
+    "subtitle": "Résultats réels de nos partenaires mondiaux"
+  },
+  "process": {
+    "title": "Comment Nous Travaillons",
+    "subtitle": "Notre Processus"
+  },
+  "partners": {
+    "title": "Confiance Mondiale",
+    "subtitle": "Nos Partenaires"
+  }
+}

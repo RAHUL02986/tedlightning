@@ -1,0 +1,191 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Prodotti",
+    "aboutUs": "Chi Siamo",
+    "projects": "Progetti",
+    "blog": "Blog",
+    "qa": "FAQ",
+    "contactUs": "Contatti",
+    "viewAllProducts": "Vedi tutti i prodotti"
+  },
+  "tagline": "Solare Intelligente. Energia Stabile.",
+  "hero": {
+    "introducing": "Presentiamo",
+    "solarPro": "Solar Pro",
+    "exploreNow": "Esplora ora",
+    "precisionMeets": "La precisione incontra",
+    "performance": "le prestazioni",
+    "discoverMore": "Scopri di più",
+    "urbanLighting": "Illuminazione Urbana",
+    "solutions": "Soluzioni",
+    "viewProjects": "Vedi progetti",
+    "quality": "Qualità",
+    "manufacturing": "Produzione",
+    "aboutUs": "Chi siamo"
+  },
+  "common": {
+    "readMore": "Leggi di Più",
+    "contactUs": "Contattaci",
+    "getQuote": "Richiedi Preventivo",
+    "learnMore": "Scopri di Più",
+    "viewAll": "Vedi Tutto",
+    "search": "Cerca",
+    "close": "Chiudi",
+    "previous": "Precedente",
+    "next": "Successivo",
+    "exploreMore": "Esplora di Più",
+    "viewDetails": "Vedi Dettagli",
+    "featured": "In Evidenza",
+    "sendInquiry": "Invia Richiesta",
+    "getRecommendation": "Ottieni Raccomandazione",
+    "viewAllFAQs": "Vedi tutte le FAQ"
+  },
+  "products": {
+    "title": "Categorie di Prodotti",
+    "subtitle": "Soluzioni di Illuminazione Complete",
+    "description": "Dagli ambienti esterni alle strutture industriali, la nostra gamma completa di soluzioni di illuminazione LED offre prestazioni, efficienza e affidabilità.",
+    "solarLighting": "Illuminazione Solare",
+    "solarLightingDesc": "Illuminazione sostenibile ad energia solare per strade, percorsi e spazi pubblici.",
+    "energyStorage": "Sistemi di Accumulo Energia",
+    "energyStorageDesc": "Soluzioni avanzate di batterie per accumulo energetico affidabile e gestione dell'energia.",
+    "outdoorLed": "Illuminazione LED Esterna",
+    "outdoorLedDesc": "Apparecchi LED professionali progettati per ambienti esterni.",
+    "industrial": "Illuminazione Industriale",
+    "industrialDesc": "Soluzioni di illuminazione ad alte prestazioni per strutture industriali.",
+    "newProducts": "Nuovi Prodotti"
+  },
+  "company": {
+    "title": "Chi è TedLighting",
+    "subtitle": "Focus sul Produttore, Non Storia di Commercio",
+    "description": "TedLighting è un produttore professionale di lampioni solari con alta qualità e dieci anni di esperienza. Controlliamo l'intero processo produttivo — dall'approvvigionamento dei componenti all'assemblaggio finale.",
+    "countries": "Paesi",
+    "projects": "Progetti",
+    "years": "Anni",
+    "teamMembers": "Membri del Team",
+    "factory": "Fabbrica di 20.000 m²",
+    "modernProduction": "Base di Produzione Moderna",
+    "productionLine": "Linea di Produzione",
+    "precisionManufacturing": "Produzione di Precisione",
+    "qualityControl": "Controllo Qualità",
+    "testingStandards": "Standard di Test al 100%",
+    "globalLogistics": "Logistica Globale",
+    "worldwideDistribution": "Distribuzione Mondiale",
+    "rdCenter": "Centro R&S",
+    "innovationHub": "Centro di Innovazione"
+  },
+  "features": {
+    "cbCertification": "Certificazione CB",
+    "cbDesc": "Primo lampione solare integrato ad alta potenza al mondo con certificazione CB IECEE Saber.",
+    "iso": "ISO9001:2015",
+    "isoDesc": "Tutte le materie prime sono testate al 100%. Ispezione di invecchiamento di 3 giorni prima della spedizione.",
+    "originalDesign": "Design Originale",
+    "designDesc": "Design brevettato unico al mondo. Vincitore del premio German Red Dot.",
+    "lifespan": "Durata 10-15 Anni",
+    "lifespanDesc": "Durata reale per progetti governativi, non affermazioni di marketing."
+  },
+  "applications": {
+    "title": "Applicazioni",
+    "subtitle": "Dove Implementiamo",
+    "municipal": "Infrastrutture municipali e governative",
+    "industrial": "Parchi industriali e strutture logistiche",
+    "commercial": "Complessi commerciali e campus",
+    "remote": "Località remote e off-grid",
+    "hybrid": "Progetti esterni ibridi solare + rete"
+  },
+  "trustBadges": {
+    "yearsStrong": "15+ Anni di Forza",
+    "yearsDesc": "Migliaia di installazioni in tutto il mondo hanno dotato il nostro team di un'esperienza senza pari che serve ogni progetto.",
+    "tailored": "Soluzioni Su Misura",
+    "tailoredDesc": "Collaboriamo strettamente con ogni cliente, progettando soluzioni personalizzate e fornendo consulenza dedicata dall'inizio alla fine.",
+    "components": "Componenti di Prima Classe",
+    "componentsDesc": "Le nostre partnership con produttori di Livello 1 offrono ai clienti componenti all'avanguardia che forniscono luce di qualità duratura.",
+    "warranty": "Garanzia Leader del Settore",
+    "warrantyDesc": "Offriamo fino a 10 anni di garanzia completa del prodotto sui nostri sistemi, dandovi totale tranquillità."
+  },
+  "contact": {
+    "title": "Contattaci",
+    "subtitle": "Parliamo del tuo progetto",
+    "description": "Che tu stia pianificando una nuova installazione o aggiornando l'infrastruttura esistente, il nostro team è pronto ad aiutarti a trovare la soluzione di illuminazione perfetta.",
+    "description2": "Raccontaci i requisiti del tuo progetto. Il nostro team tecnico fornirà una soluzione personalizzata e un preventivo competitivo entro 24 ore.",
+    "freeConsultation": "Consulenza tecnica gratuita",
+    "customSpecs": "Specifiche prodotto personalizzate",
+    "roiAnalysis": "Analisi ROI del progetto",
+    "phone": "Telefono",
+    "email": "Email",
+    "address": "Indirizzo",
+    "workingHours": "Orari di Lavoro",
+    "workingHoursValue": "Lun - Sab: 9:00 - 18:00 (GMT+8)",
+    "fullName": "Nome Completo",
+    "yourName": "Il tuo nome",
+    "yourEmail": "tua@email.com",
+    "phoneWhatsapp": "Telefono / WhatsApp",
+    "country": "Paese",
+    "yourCountry": "Il tuo paese",
+    "businessType": "Tipo di Attività",
+    "selectType": "Seleziona tipo",
+    "application": "Applicazione",
+    "selectApplication": "Seleziona applicazione",
+    "estimatedQuantity": "Quantità Stimata",
+    "quantityPlaceholder": "es., 100-500 unità",
+    "projectDetails": "Dettagli del Progetto",
+    "projectPlaceholder": "Raccontaci i requisiti del tuo progetto, specifiche o domande...",
+    "responseTime": "Di solito rispondiamo entro 24 ore nei giorni lavorativi."
+  },
+  "businessTypes": {
+    "distributor": "Distributore",
+    "trader": "Commerciante",
+    "constructor": "Costruttore/EPC",
+    "government": "Agenzia Governativa",
+    "endUser": "Utente Finale",
+    "other": "Altro"
+  },
+  "applicationTypes": {
+    "streetLighting": "Illuminazione Stradale",
+    "highwayLighting": "Illuminazione Autostradale",
+    "industrialPark": "Parco Industriale",
+    "commercialArea": "Area Commerciale",
+    "residential": "Comunità Residenziale",
+    "government": "Progetto Governativo",
+    "other": "Altro"
+  },
+  "cta": {
+    "title": "Inizia",
+    "subtitle": "Verifica Se La Nostra Soluzione Si Adatta Al Tuo Progetto",
+    "description": "Comunicaci la tua posizione, applicazione e ore di funzionamento richieste. Ti raccomanderemo una configurazione che funziona in condizioni reali."
+  },
+  "faq": {
+    "title": "Domande Frequenti",
+    "q1": "Siete un produttore o una società commerciale?",
+    "a1": "Siamo un produttore diretto con produzione interna, test e controllo qualità.",
+    "q2": "Con chi lavorate?",
+    "a2": "Forniamo distributori, appaltatori EPC e acquirenti di progetti governativi.",
+    "q3": "Quali mercati servite?",
+    "a3": "I nostri prodotti sono installati nel Sud-Est Asiatico, Africa, Medio Oriente e America Latina.",
+    "q4": "Supportate configurazioni basate su progetto?",
+    "a4": "Sì. Le configurazioni di sistema sono regolate in base a posizione, profilo di utilizzo e requisiti del progetto.",
+    "q5": "Come ottengo un preventivo?",
+    "a5": "Invia i dettagli del tuo progetto o requisiti applicativi, e il nostro team raccomanderà una configurazione adatta."
+  },
+  "footer": {
+    "description": "Produttore professionale di illuminazione solare e LED con oltre 15 anni di eccellenza ingegneristica. Fiducia da progetti in oltre 160 paesi.",
+    "products": "Prodotti",
+    "company": "Link Rapidi",
+    "followUs": "Seguici",
+    "allRightsReserved": "Tutti i diritti riservati",
+    "privacyPolicy": "Informativa sulla Privacy",
+    "termsConditions": "Termini e Condizioni"
+  },
+  "testimonials": {
+    "title": "Cosa Dicono I Nostri Partner",
+    "subtitle": "Risultati reali dai nostri partner globali"
+  },
+  "process": {
+    "title": "Come Lavoriamo",
+    "subtitle": "Il Nostro Processo"
+  },
+  "partners": {
+    "title": "Fiducia Mondiale",
+    "subtitle": "I Nostri Partner"
+  }
+}

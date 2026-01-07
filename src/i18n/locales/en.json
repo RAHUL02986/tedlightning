@@ -1,0 +1,191 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "aboutUs": "About Us",
+    "projects": "Projects",
+    "blog": "Blog",
+    "qa": "Q&A",
+    "contactUs": "Contact Us",
+    "viewAllProducts": "View all products"
+  },
+  "tagline": "Smart Solar. Stable Power.",
+  "hero": {
+    "introducing": "Introducing",
+    "solarPro": "Solar Pro",
+    "exploreNow": "Explore now",
+    "precisionMeets": "Precision meets",
+    "performance": "performance",
+    "discoverMore": "Discover more",
+    "urbanLighting": "Urban Lighting",
+    "solutions": "Solutions",
+    "viewProjects": "View projects",
+    "quality": "Quality",
+    "manufacturing": "Manufacturing",
+    "aboutUs": "About us"
+  },
+  "common": {
+    "readMore": "Read More",
+    "contactUs": "Contact Us",
+    "getQuote": "Get a Quote",
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "search": "Search",
+    "close": "Close",
+    "previous": "Previous",
+    "next": "Next",
+    "exploreMore": "Explore More",
+    "viewDetails": "View Details",
+    "featured": "Featured",
+    "sendInquiry": "Send Inquiry",
+    "getRecommendation": "Get Recommendation",
+    "viewAllFAQs": "View all FAQs"
+  },
+  "products": {
+    "title": "Product Categories",
+    "subtitle": "Complete Lighting Solutions",
+    "description": "From outdoor environments to industrial facilities, our comprehensive range of LED lighting solutions delivers performance, efficiency, and reliability.",
+    "solarLighting": "Solar Lighting",
+    "solarLightingDesc": "Sustainable solar-powered lighting for streets, pathways, and public spaces.",
+    "energyStorage": "Energy Storage Systems",
+    "energyStorageDesc": "Advanced battery solutions for reliable energy storage and power management.",
+    "outdoorLed": "Outdoor LED Lighting",
+    "outdoorLedDesc": "Professional-grade LED fixtures designed for outdoor environments.",
+    "industrial": "Industrial Lighting",
+    "industrialDesc": "High-performance lighting solutions for industrial facilities.",
+    "newProducts": "New Products"
+  },
+  "company": {
+    "title": "About TedLighting",
+    "subtitle": "Manufacturer Focus, Not a Trading Story",
+    "description": "TedLighting is a professional solar-powered street light manufacturer with high quality and ten years of experience. We control the entire production process—from component sourcing to final assembly.",
+    "countries": "Countries",
+    "projects": "Projects",
+    "years": "Years",
+    "teamMembers": "Team Members",
+    "factory": "20,000 m² Factory",
+    "modernProduction": "Modern Production Base",
+    "productionLine": "Production Line",
+    "precisionManufacturing": "Precision Manufacturing",
+    "qualityControl": "Quality Control",
+    "testingStandards": "100% Testing Standards",
+    "globalLogistics": "Global Logistics",
+    "worldwideDistribution": "Worldwide Distribution",
+    "rdCenter": "R&D Center",
+    "innovationHub": "Innovation Hub"
+  },
+  "features": {
+    "cbCertification": "CB Certification",
+    "cbDesc": "World's first high-power integrated solar street light with CB IECEE Saber certification.",
+    "iso": "ISO9001:2015",
+    "isoDesc": "All raw materials are 100% tested. 3-day aging inspection before shipping.",
+    "originalDesign": "Original Design",
+    "designDesc": "Global unique patent design. German Red Dot Award winner.",
+    "lifespan": "10-15 Years Lifespan",
+    "lifespanDesc": "Real lifespan for government projects, not marketing claims."
+  },
+  "applications": {
+    "title": "Applications",
+    "subtitle": "Where We Deploy",
+    "municipal": "Municipal & government infrastructure",
+    "industrial": "Industrial parks & logistics facilities",
+    "commercial": "Commercial compounds & campuses",
+    "remote": "Remote & off-grid locations",
+    "hybrid": "Hybrid solar + grid outdoor projects"
+  },
+  "trustBadges": {
+    "yearsStrong": "15+ Years Strong",
+    "yearsDesc": "Thousands of installations across the globe have equipped our team with unmatched expertise that serves every project.",
+    "tailored": "Tailored Solutions",
+    "tailoredDesc": "We collaborate closely with every client, designing custom solutions and providing dedicated consultation from start to finish.",
+    "components": "Best-in-Class Components",
+    "componentsDesc": "Our partnerships with Tier 1 manufacturers provides customers with state-of-the-art components that deliver quality, long-lasting light.",
+    "warranty": "Industry-Leading Warranty",
+    "warrantyDesc": "We offer up to a 10-year, full-product warranty on our systems, giving you total peace of mind."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Let's discuss your project",
+    "description": "Whether you're planning a new installation or upgrading existing infrastructure, our team is ready to help you find the perfect lighting solution.",
+    "description2": "Tell us about your project requirements. Our technical team will provide a customized solution and competitive quotation within 24 hours.",
+    "freeConsultation": "Free technical consultation",
+    "customSpecs": "Custom product specifications",
+    "roiAnalysis": "Project ROI analysis",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "workingHours": "Working Hours",
+    "workingHoursValue": "Mon - Sat: 9:00 AM - 6:00 PM (GMT+8)",
+    "fullName": "Full Name",
+    "yourName": "Your name",
+    "yourEmail": "your@email.com",
+    "phoneWhatsapp": "Phone / WhatsApp",
+    "country": "Country",
+    "yourCountry": "Your country",
+    "businessType": "Business Type",
+    "selectType": "Select type",
+    "application": "Application",
+    "selectApplication": "Select application",
+    "estimatedQuantity": "Estimated Quantity",
+    "quantityPlaceholder": "e.g., 100-500 units",
+    "projectDetails": "Project Details",
+    "projectPlaceholder": "Tell us about your project requirements, specifications, or any questions...",
+    "responseTime": "We typically respond within 24 hours on business days."
+  },
+  "businessTypes": {
+    "distributor": "Distributor",
+    "trader": "Trader",
+    "constructor": "Constructor/EPC",
+    "government": "Government Agency",
+    "endUser": "End User",
+    "other": "Other"
+  },
+  "applicationTypes": {
+    "streetLighting": "Street Lighting",
+    "highwayLighting": "Highway Lighting",
+    "industrialPark": "Industrial Park",
+    "commercialArea": "Commercial Area",
+    "residential": "Residential Community",
+    "government": "Government Project",
+    "other": "Other"
+  },
+  "cta": {
+    "title": "Get Started",
+    "subtitle": "Check If Our Solution Fits Your Project",
+    "description": "Tell us your location, application, and required operating hours. We'll recommend a configuration that works in real conditions."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": "Are you a manufacturer or a trading company?",
+    "a1": "We are a direct manufacturer with in-house production, testing, and quality control.",
+    "q2": "Who do you work with?",
+    "a2": "We supply distributors, EPC contractors, and government project buyers.",
+    "q3": "Which markets do you serve?",
+    "a3": "Our products are deployed across Southeast Asia, Africa, the Middle East, and Latin America.",
+    "q4": "Do you support project-based configurations?",
+    "a4": "Yes. System configurations are adjusted based on location, usage profile, and project requirements.",
+    "q5": "How do I get a quotation?",
+    "a5": "Submit your project details or application requirements, and our team will recommend a suitable configuration."
+  },
+  "footer": {
+    "description": "Professional solar and LED lighting manufacturer with 15+ years of engineering excellence. Trusted by projects in 160+ countries.",
+    "products": "Products",
+    "company": "Quick Links",
+    "followUs": "Follow Us",
+    "allRightsReserved": "All rights reserved",
+    "privacyPolicy": "Privacy Policy",
+    "termsConditions": "Terms & Conditions"
+  },
+  "testimonials": {
+    "title": "What Our Partners Say",
+    "subtitle": "Real results from our global partners"
+  },
+  "process": {
+    "title": "How We Work",
+    "subtitle": "Our Process"
+  },
+  "partners": {
+    "title": "Trusted Worldwide",
+    "subtitle": "Our Partners"
+  }
+}

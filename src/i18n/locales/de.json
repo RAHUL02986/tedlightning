@@ -1,0 +1,191 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "products": "Produkte",
+    "aboutUs": "Über Uns",
+    "projects": "Projekte",
+    "blog": "Blog",
+    "qa": "FAQ",
+    "contactUs": "Kontakt",
+    "viewAllProducts": "Alle Produkte anzeigen"
+  },
+  "tagline": "Intelligente Solarenergie. Stabile Leistung.",
+  "hero": {
+    "introducing": "Wir präsentieren",
+    "solarPro": "Solar Pro",
+    "exploreNow": "Jetzt erkunden",
+    "precisionMeets": "Präzision trifft auf",
+    "performance": "Leistung",
+    "discoverMore": "Mehr entdecken",
+    "urbanLighting": "Städtische Beleuchtung",
+    "solutions": "Lösungen",
+    "viewProjects": "Projekte ansehen",
+    "quality": "Qualität",
+    "manufacturing": "Fertigung",
+    "aboutUs": "Über uns"
+  },
+  "common": {
+    "readMore": "Mehr lesen",
+    "contactUs": "Kontaktieren Sie uns",
+    "getQuote": "Angebot anfordern",
+    "learnMore": "Mehr erfahren",
+    "viewAll": "Alle anzeigen",
+    "search": "Suchen",
+    "close": "Schließen",
+    "previous": "Zurück",
+    "next": "Weiter",
+    "exploreMore": "Mehr erkunden",
+    "viewDetails": "Details anzeigen",
+    "featured": "Empfohlen",
+    "sendInquiry": "Anfrage senden",
+    "getRecommendation": "Empfehlung erhalten",
+    "viewAllFAQs": "Alle FAQs anzeigen"
+  },
+  "products": {
+    "title": "Produktkategorien",
+    "subtitle": "Komplette Beleuchtungslösungen",
+    "description": "Von Außenbereichen bis zu Industrieanlagen bietet unser umfassendes LED-Beleuchtungssortiment Leistung, Effizienz und Zuverlässigkeit.",
+    "solarLighting": "Solar-Beleuchtung",
+    "solarLightingDesc": "Nachhaltige solarbetriebene Beleuchtung für Straßen, Wege und öffentliche Plätze.",
+    "energyStorage": "Energiespeichersysteme",
+    "energyStorageDesc": "Fortschrittliche Batterielösungen für zuverlässige Energiespeicherung und Strommanagement.",
+    "outdoorLed": "LED-Außenbeleuchtung",
+    "outdoorLedDesc": "Professionelle LED-Leuchten für Außenbereiche.",
+    "industrial": "Industriebeleuchtung",
+    "industrialDesc": "Hochleistungs-Beleuchtungslösungen für Industrieanlagen.",
+    "newProducts": "Neue Produkte"
+  },
+  "company": {
+    "title": "Über TedLighting",
+    "subtitle": "Herstellerfokus, Keine Handelsgeschichte",
+    "description": "TedLighting ist ein professioneller Hersteller von Solar-Straßenleuchten mit hoher Qualität und zehn Jahren Erfahrung. Wir kontrollieren den gesamten Produktionsprozess – von der Komponentenbeschaffung bis zur Endmontage.",
+    "countries": "Länder",
+    "projects": "Projekte",
+    "years": "Jahre",
+    "teamMembers": "Teammitglieder",
+    "factory": "20.000 m² Fabrik",
+    "modernProduction": "Moderne Produktionsbasis",
+    "productionLine": "Produktionslinie",
+    "precisionManufacturing": "Präzisionsfertigung",
+    "qualityControl": "Qualitätskontrolle",
+    "testingStandards": "100% Teststandards",
+    "globalLogistics": "Globale Logistik",
+    "worldwideDistribution": "Weltweiter Vertrieb",
+    "rdCenter": "F&E-Zentrum",
+    "innovationHub": "Innovationszentrum"
+  },
+  "features": {
+    "cbCertification": "CB-Zertifizierung",
+    "cbDesc": "Weltweit erste integrierte Solar-Straßenleuchte mit hoher Leistung und CB IECEE Saber-Zertifizierung.",
+    "iso": "ISO9001:2015",
+    "isoDesc": "Alle Rohstoffe werden zu 100% getestet. 3-tägige Alterungsprüfung vor dem Versand.",
+    "originalDesign": "Originaldesign",
+    "designDesc": "Weltweit einzigartiges Patentdesign. German Red Dot Award Gewinner.",
+    "lifespan": "10-15 Jahre Lebensdauer",
+    "lifespanDesc": "Echte Lebensdauer für Regierungsprojekte, keine Marketing-Behauptungen."
+  },
+  "applications": {
+    "title": "Anwendungen",
+    "subtitle": "Wo Wir Einsetzen",
+    "municipal": "Kommunale und staatliche Infrastruktur",
+    "industrial": "Industrieparks und Logistikeinrichtungen",
+    "commercial": "Gewerbeanlagen und Campus",
+    "remote": "Abgelegene und netzunabhängige Standorte",
+    "hybrid": "Hybride Solar- + Netzprojekte im Freien"
+  },
+  "trustBadges": {
+    "yearsStrong": "15+ Jahre Erfahrung",
+    "yearsDesc": "Tausende Installationen weltweit haben unser Team mit unübertroffener Expertise ausgestattet, die jedem Projekt dient.",
+    "tailored": "Maßgeschneiderte Lösungen",
+    "tailoredDesc": "Wir arbeiten eng mit jedem Kunden zusammen, entwickeln individuelle Lösungen und bieten engagierte Beratung von Anfang bis Ende.",
+    "components": "Erstklassige Komponenten",
+    "componentsDesc": "Unsere Partnerschaften mit Tier-1-Herstellern bieten Kunden modernste Komponenten für qualitativ hochwertiges, langlebiges Licht.",
+    "warranty": "Branchenführende Garantie",
+    "warrantyDesc": "Wir bieten bis zu 10 Jahre Vollproduktgarantie auf unsere Systeme und geben Ihnen völlige Sicherheit."
+  },
+  "contact": {
+    "title": "Kontaktieren Sie Uns",
+    "subtitle": "Lassen Sie uns Ihr Projekt besprechen",
+    "description": "Ob Sie eine Neuinstallation planen oder bestehende Infrastruktur aufrüsten – unser Team hilft Ihnen, die perfekte Beleuchtungslösung zu finden.",
+    "description2": "Erzählen Sie uns von Ihren Projektanforderungen. Unser technisches Team wird innerhalb von 24 Stunden eine maßgeschneiderte Lösung und ein wettbewerbsfähiges Angebot erstellen.",
+    "freeConsultation": "Kostenlose technische Beratung",
+    "customSpecs": "Individuelle Produktspezifikationen",
+    "roiAnalysis": "Projekt-ROI-Analyse",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "address": "Adresse",
+    "workingHours": "Arbeitszeiten",
+    "workingHoursValue": "Mo - Sa: 9:00 - 18:00 (GMT+8)",
+    "fullName": "Vollständiger Name",
+    "yourName": "Ihr Name",
+    "yourEmail": "ihre@email.com",
+    "phoneWhatsapp": "Telefon / WhatsApp",
+    "country": "Land",
+    "yourCountry": "Ihr Land",
+    "businessType": "Geschäftstyp",
+    "selectType": "Typ auswählen",
+    "application": "Anwendung",
+    "selectApplication": "Anwendung auswählen",
+    "estimatedQuantity": "Geschätzte Menge",
+    "quantityPlaceholder": "z.B. 100-500 Einheiten",
+    "projectDetails": "Projektdetails",
+    "projectPlaceholder": "Erzählen Sie uns von Ihren Projektanforderungen, Spezifikationen oder Fragen...",
+    "responseTime": "Wir antworten normalerweise innerhalb von 24 Stunden an Werktagen."
+  },
+  "businessTypes": {
+    "distributor": "Distributor",
+    "trader": "Händler",
+    "constructor": "Bauunternehmer/EPC",
+    "government": "Regierungsbehörde",
+    "endUser": "Endverbraucher",
+    "other": "Sonstiges"
+  },
+  "applicationTypes": {
+    "streetLighting": "Straßenbeleuchtung",
+    "highwayLighting": "Autobahnbeleuchtung",
+    "industrialPark": "Industriepark",
+    "commercialArea": "Gewerbegebiet",
+    "residential": "Wohngemeinschaft",
+    "government": "Regierungsprojekt",
+    "other": "Sonstiges"
+  },
+  "cta": {
+    "title": "Loslegen",
+    "subtitle": "Prüfen Sie, Ob Unsere Lösung Zu Ihrem Projekt Passt",
+    "description": "Nennen Sie uns Ihren Standort, die Anwendung und die erforderlichen Betriebsstunden. Wir empfehlen eine Konfiguration, die unter realen Bedingungen funktioniert."
+  },
+  "faq": {
+    "title": "Häufig Gestellte Fragen",
+    "q1": "Sind Sie Hersteller oder Handelsunternehmen?",
+    "a1": "Wir sind ein Direkthersteller mit eigener Produktion, Prüfung und Qualitätskontrolle.",
+    "q2": "Mit wem arbeiten Sie zusammen?",
+    "a2": "Wir beliefern Distributoren, EPC-Auftragnehmer und Käufer von Regierungsprojekten.",
+    "q3": "Welche Märkte bedienen Sie?",
+    "a3": "Unsere Produkte sind in Südostasien, Afrika, dem Nahen Osten und Lateinamerika im Einsatz.",
+    "q4": "Unterstützen Sie projektbasierte Konfigurationen?",
+    "a4": "Ja. Systemkonfigurationen werden basierend auf Standort, Nutzungsprofil und Projektanforderungen angepasst.",
+    "q5": "Wie erhalte ich ein Angebot?",
+    "a5": "Reichen Sie Ihre Projektdetails oder Anwendungsanforderungen ein, und unser Team empfiehlt eine geeignete Konfiguration."
+  },
+  "footer": {
+    "description": "Professioneller Hersteller von Solar- und LED-Beleuchtung mit über 15 Jahren Engineering-Exzellenz. Vertraut von Projekten in über 160 Ländern.",
+    "products": "Produkte",
+    "company": "Schnelllinks",
+    "followUs": "Folgen Sie Uns",
+    "allRightsReserved": "Alle Rechte vorbehalten",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "termsConditions": "Allgemeine Geschäftsbedingungen"
+  },
+  "testimonials": {
+    "title": "Was Unsere Partner Sagen",
+    "subtitle": "Echte Ergebnisse von unseren globalen Partnern"
+  },
+  "process": {
+    "title": "Wie Wir Arbeiten",
+    "subtitle": "Unser Prozess"
+  },
+  "partners": {
+    "title": "Weltweit Vertraut",
+    "subtitle": "Unsere Partner"
+  }
+}
