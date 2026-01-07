@@ -88,7 +88,7 @@ export function Header() {
       <div className="flex items-center justify-between h-20 lg:h-24">
         {/* Logo + Tagline */}
         <Link href="/" className="flex items-center gap-4">
-          <img src="/assets/logo.png" alt="TedLighting" className="h-7 lg:h-8 rounded-none " />
+          <img src="" alt="TedLighting" className="h-7 lg:h-8 rounded-none " />
           <span className="hidden md:block text-[11px] tracking-[0.1em] text-muted-foreground font-light border-l border-border pl-4">
             {t('tagline')}
           </span>

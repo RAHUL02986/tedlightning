@@ -1,11 +1,8 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "src",
     "paths": {
-      "@/*": [
-        "./src/*",
-        "./lib/*"
-      ]
+       "@/*": ["*"]
     },
     "noImplicitAny": false,
     "noUnusedParameters": false,
@@ -13,11 +10,7 @@
     "allowJs": true,
     "noUnusedLocals": false,
     "strictNullChecks": false,
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "strict": false,
     "noEmit": true,
     "incremental": true,
@@ -28,11 +21,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "downlevelIteration": true,
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ]
+    "plugins": [{ "name": "next" }]
   },
   "include": [
     "next-env.d.ts",
@@ -40,7 +29,5 @@
     "**/*.ts",
     "**/*.tsx"
   ],
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }

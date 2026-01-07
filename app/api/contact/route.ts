@@ -1,25 +1,13 @@
 import { NextRequest, NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
-import dbConnect from '@/lib/mongodb';
-import Contact from '@/lib/models/Contact';
-
+import dbConnect from '../../../lib/mongodb';
+import Contact, { IContact } from '../../../lib/models/Contact';
 export async function POST(request: NextRequest) {
   try {
     await dbConnect();
 
     const body = await request.json();
-    const { name, email, phone, country, businessType, application, quantity, message } = body;
-
-    // Validate required fields
-    if (!name || !email || !country || !businessType || !application) {
-      return NextResponse.json(
-        { error: 'Missing required fields' },
-        { status: 400 }
-      );
-    }
-
-    // Save to database
-    const contact = new Contact({
+    const {
       name,
       email,
       phone,
@@ -27,57 +15,103 @@ export async function POST(request: NextRequest) {
       businessType,
       application,
       quantity,
-      message
+      message,
+    } = body as Partial<IContact>;
+
+    if (!name || !email || !country || !businessType || !application) {
+      return NextResponse.json(
+        { error: 'Missing required fields' },
+        { status: 400 }
+      );
+    }
+
+    const savedContact = await Contact.create({
+      name,
+      email,
+      phone,
+      country,
+      businessType,
+      application,
+      quantity,
+      message,
     });
 
-    const savedContact = await contact.save();
+    // 🚀 EMAIL SECTION
+    try {
+      const transporter = nodemailer.createTransport({
+        host: 'smtp.gmail.com',
+        port: 465,
+        secure: true,
+        auth: {
+          user: process.env.EMAIL_USER,
+          pass: process.env.EMAIL_PASS,
+        },
+      });
 
-    // Send email using nodemailer
-    const transporter = nodemailer.createTransporter({
-      service: 'gmail',
-      auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS
-      }
-    });
+      // 1️⃣ ADMIN EMAIL (replyTo = user)
+      await transporter.sendMail({
+        from: `"TED Lighting Website" <${process.env.EMAIL_USER}>`,
+        to: 'rahul.codexmatrix@gmail.com',
+        replyTo: email,
+        subject: `New Contact Inquiry - ${name}`,
+        html: `
+          <h2>New Contact Inquiry</h2>
+          <p><b>Name:</b> ${name}</p>
+          <p><b>Email:</b> ${email}</p>
+          <p><b>Phone:</b> ${phone || 'N/A'}</p>
+          <p><b>Country:</b> ${country}</p>
+          <p><b>Business Type:</b> ${businessType}</p>
+          <p><b>Application:</b> ${application}</p>
+          <p><b>Quantity:</b> ${quantity || 'N/A'}</p>
+          <p><b>Message:</b> ${message || 'N/A'}</p>
+        `,
+      });
 
-    const mailOptions = {
-      from: process.env.EMAIL_USER,
-      to: 'horace@tedlighting.com', // Company email
-      subject: `New Contact Inquiry from ${name}`,
-      html: '<div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">' +
-        '<h2 style="color: #333;">New Contact Inquiry</h2>' +
-        '<div style="background-color: #f5f5f5; padding: 20px; border-radius: 8px;">' +
-        '<p><strong>Name:</strong> ' + name + '</p>' +
-        '<p><strong>Email:</strong> ' + email + '</p>' +
-        '<p><strong>Phone:</strong> ' + (phone || 'Not provided') + '</p>' +
-        '<p><strong>Country:</strong> ' + country + '</p>' +
-        '<p><strong>Business Type:</strong> ' + businessType + '</p>' +
-        '<p><strong>Application:</strong> ' + application + '</p>' +
-        '<p><strong>Estimated Quantity:</strong> ' + (quantity || 'Not specified') + '</p>' +
-        '<p><strong>Message:</strong></p>' +
-        '<p style="background-color: white; padding: 10px; border-radius: 4px;">' + (message || 'No message provided') + '</p>' +
-        '</div>' +
-        '<p style="color: #666; font-size: 12px; margin-top: 20px;">' +
-        'This inquiry was submitted on ' + new Date().toLocaleString() +
-        '</p>' +
-        '</div>'
-    };
+      // ⏳ SMALL DELAY (VERY IMPORTANT FOR GMAIL)
+      await new Promise((resolve) => setTimeout(resolve, 1500));
 
-    await transporter.sendMail(mailOptions);
+      // 2️⃣ USER FEEDBACK EMAIL
+      await transporter.sendMail({
+        from: `"TED Lighting" <${process.env.EMAIL_USER}>`,
+        to: email,
+        subject: 'We received your inquiry – TED Lighting',
+        html: `
+          <h2>Thank you for contacting TED Lighting</h2>
+          <p>Dear ${name},</p>
+
+          <p>
+            We have successfully received your inquiry.
+            Our team will get back to you within <b>24–48 hours</b>.
+          </p>
+
+          <h4>Your Details</h4>
+          <ul>
+            <li><b>Business Type:</b> ${businessType}</li>
+            <li><b>Application:</b> ${application}</li>
+            <li><b>Country:</b> ${country}</li>
+            ${quantity ? `<li><b>Quantity:</b> ${quantity}</li>` : ''}
+          </ul>
+
+          <p>
+            Regards,<br/>
+            <b>TED Lighting Team</b>
+          </p>
+        `,
+      });
+
+      console.log('✅ Admin + User emails sent');
+    } catch (mailError) {
+      console.error('❌ Email failed:', mailError);
+    }
 
     return NextResponse.json(
-      {
-        message: 'Contact inquiry submitted successfully',
-        contactId: savedContact._id
-      },
+      { message: 'Contact submitted successfully', id: savedContact._id },
       { status: 201 }
     );
-
   } catch (error) {
-    console.error('Contact submission error:', error);
+    console.error('❌ API Error:', error);
     return NextResponse.json(
-      { error: 'Failed to submit contact inquiry' },
+      { error: 'Something went wrong' },
       { status: 500 }
     );
   }
