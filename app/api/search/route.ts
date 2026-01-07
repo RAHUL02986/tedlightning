@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
-import dbConnect from '@/lib/mongodb';
-import Product from '@/lib/models/Product';
+import dbConnect from '../../../lib/mongodb';
+import Product from '../../../lib/models/Product';
 
 export async function GET(request: NextRequest) {
   try {
@@ -14,14 +14,16 @@ export async function GET(request: NextRequest) {
 
     const regex = new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i');
 
-    const products = await Product.find({
-      $or: [
-        { name: regex },
-        { description: regex },
-        { category: regex },
-        { subcategory: regex },
-      ],
-    }).limit(20).lean();
+    const products = await Product.find(
+      {
+        $or: [
+          { name: regex },
+          { description: regex },
+          { category: regex },
+          { subcategory: regex },
+        ],
+      } as any
+    ).limit(20).lean();
 
     const results = products.map((p) => ({
       id: p.id,
