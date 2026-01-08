@@ -96,6 +96,7 @@ export function CompanySection() {
               src={factoryImages[0].src}
               alt={factoryImages[0].title}
               fill
+              sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover transition-transform duration-700 group-hover:scale-110"
             />
             {/* Gradient overlay */}
@@ -123,6 +124,7 @@ export function CompanySection() {
                 src={image.src}
                 alt={image.title}
                 fill
+                sizes="(max-width: 1024px) 50vw, 25vw"
                 className="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:brightness-110"
               />
               {/* Overlay */}

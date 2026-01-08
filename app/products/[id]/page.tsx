@@ -2,11 +2,12 @@
 
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { ArrowLeft, Download, Mail, Phone, MessageCircle, CheckCircle } from "lucide-react";
+import { ArrowLeft, Download, Mail, Phone, MessageCircle, CheckCircle, ShoppingCart } from "lucide-react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import { useState, useEffect } from "react";
 import { ProductImageGallery } from "@/components/ProductImageGallery";
+import { useCart } from "@/contexts/CartContext";
 
 interface Product {
   id: string;
@@ -22,12 +23,14 @@ interface Product {
     warranty: string;
   };
   description: string;
+  price: number;
   features: string[];
 }
 
 export default function ProductPage() {
   const params = useParams();
   const productId = params.id as string;
+  const { addToCart } = useCart();
 
   const [product, setProduct] = useState<Product | null>(null);
   const [loading, setLoading] = useState(true);
@@ -202,6 +205,13 @@ export default function ProductPage() {
                     Contact our sales team for pricing, availability, and custom configurations.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3">
+                    <button
+                      onClick={() => addToCart(product.id, 1, product.price, product.name, product.image)}
+                      className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
+                    >
+                      <ShoppingCart className="h-4 w-4" />
+                      Add to Cart
+                    </button>
                     <Link
                       href="/contact"
                       className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors"

@@ -1,6 +1,7 @@
 // app/layout.tsx
 import React from "react";
 import I18nProvider from "../src/i18n/I18nProvider";
+import { CartProvider } from "../src/contexts/CartContext";
 import "../app/globals.css";
 
 export const metadata = {
@@ -12,7 +13,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" suppressHydrationWarning>
       <body className="antialiased">
-        <I18nProvider>{children}</I18nProvider>
+        <I18nProvider>
+          <CartProvider>{children}</CartProvider>
+        </I18nProvider>
       </body>
     </html>
   );

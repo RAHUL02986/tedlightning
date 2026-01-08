@@ -3,11 +3,12 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Menu, X, Search, ChevronDown } from "lucide-react";
+import { Menu, X, Search, ChevronDown, ShoppingCart } from "lucide-react";
 import { Facebook, Youtube, Instagram, Linkedin } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import SearchDialog from "../components/SearchDialog";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { useCart } from "@/contexts/CartContext";
 const socialLinks = [{
   icon: Linkedin,
   href: "https://www.facebook.com/TedlightingSolarOutdoorLEDLightingManufacturerCN",
@@ -40,6 +41,7 @@ export function Header() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const pathname = usePathname();
   const { t } = useTranslation();
+  const { state: cartState } = useCart();
   const [categories, setCategories] = useState<any[]>([]);
 
   useEffect(() => {
@@ -88,7 +90,7 @@ export function Header() {
       <div className="flex items-center justify-between h-20 lg:h-24">
         {/* Logo + Tagline */}
         <Link href="/" className="flex items-center gap-4">
-          <img src="" alt="TedLighting" className="h-7 lg:h-8 rounded-none " />
+          <img src="/assets/logo.png" alt="TedLighting" className="h-7 lg:h-8 rounded-none " />
           <span className="hidden md:block text-[11px] tracking-[0.1em] text-muted-foreground font-light border-l border-border pl-4">
             {t('tagline')}
           </span>
@@ -139,6 +141,14 @@ export function Header() {
           <button onClick={() => setIsSearchOpen(true)} className="p-2 text-muted-foreground hover:text-foreground transition-colors flex items-center gap-2">
             <Search className="h-[18px] w-[18px]" strokeWidth={1.5} />
           </button>
+          <Link href="/cart" className="relative p-2 text-muted-foreground hover:text-foreground transition-colors">
+            <ShoppingCart className="h-[18px] w-[18px]" strokeWidth={1.5} />
+            {cartState.items.length > 0 && (
+              <span className="absolute -top-1 -right-1 bg-primary text-primary-foreground text-xs rounded-full h-5 w-5 flex items-center justify-center">
+                {cartState.items.length}
+              </span>
+            )}
+          </Link>
         </div>
 
         {/* Mobile Menu Button */}

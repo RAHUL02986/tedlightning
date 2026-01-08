@@ -19,6 +19,7 @@ const productSchema = new mongoose.Schema({
     warranty: String,
   },
   description: { type: String, required: true },
+  price: { type: Number, required: true, min: 0 },
   features: [String],
 });
 
@@ -51,6 +52,7 @@ const sampleProducts = [
       warranty: "5 years"
     },
     description: "Professional solar street lighting solution for roads and infrastructure",
+    price: 299.99,
     features: [
       "High efficiency monocrystalline solar panel",
       "Advanced MPPT charge controller",
@@ -73,6 +75,7 @@ const sampleProducts = [
       warranty: "5 years"
     },
     description: "Powerful solar flood lighting for large areas",
+    price: 399.99,
     features: [
       "Wide beam angle 120°",
       "IP67 waterproof rating",
@@ -94,6 +97,7 @@ const sampleProducts = [
       warranty: "10 years"
     },
     description: "High performance industrial grade solar lighting",
+    price: 599.99,
     features: [
       "Premium quality components",
       "Extended warranty",
@@ -115,6 +119,7 @@ const sampleProducts = [
       warranty: "7 years"
     },
     description: "Modular split solar lighting system for flexibility",
+    price: 349.99,
     features: [
       "Separate panel and light",
       "Flexible installation",

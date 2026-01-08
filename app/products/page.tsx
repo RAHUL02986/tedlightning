@@ -5,7 +5,7 @@ import { Footer } from "@/components/Footer";
 import { ArrowRight, Filter, Grid3X3, List, Download, Sun, Zap, Battery, Lightbulb, Factory } from "lucide-react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 
 // Use public asset paths
 // categories now come from API
