@@ -9,6 +9,7 @@ import { useTranslation } from "react-i18next";
 import SearchDialog from "../components/SearchDialog";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { useCart } from "@/contexts/CartContext";
+import { useAuth } from "../contexts/AuthContext";
 const socialLinks = [{
   icon: Linkedin,
   href: "https://www.facebook.com/TedlightingSolarOutdoorLEDLightingManufacturerCN",
@@ -42,6 +43,7 @@ export function Header() {
   const pathname = usePathname();
   const { t } = useTranslation();
   const { state: cartState } = useCart();
+  const { user, logout } = useAuth();
   const [categories, setCategories] = useState<any[]>([]);
 
   useEffect(() => {
@@ -149,6 +151,26 @@ export function Header() {
               </span>
             )}
           </Link>
+          {user ? (
+            <div className="flex items-center gap-4">
+              <span className="text-sm text-muted-foreground">{user.email}</span>
+              {user.role === 'admin' && (
+                <Link href="/admin/dashboard" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                  Admin
+                </Link>
+              )}
+              <button
+                onClick={logout}
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
+                Logout
+              </button>
+            </div>
+          ) : (
+            <Link href="/login" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+              Login
+            </Link>
+          )}
         </div>
 
         {/* Mobile Menu Button */}
