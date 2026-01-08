@@ -320,7 +320,7 @@ export default function Products() {
                 {/* Products Grid */}
                 {!loading && !error && (
                   <div className={viewMode === "grid" ? "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" : "space-y-4"}>
-                    {products.map(product => <Link key={product.id} href={`/products/${product.id}`} className={`group bg-background border border-border rounded-xl overflow-hidden hover:border-primary/50 hover:shadow-lg transition-all duration-300 ${viewMode === "list" ? "flex" : ""}`}>
+                    {products.map(product => <Link key={product._id} href={`/products/${product.id}`} className={`group bg-background border border-border rounded-xl overflow-hidden hover:border-primary/50 hover:shadow-lg transition-all duration-300 ${viewMode === "list" ? "flex" : ""}`}>
                         {/* Image */}
                         <div className={`relative overflow-hidden bg-muted ${viewMode === "list" ? "w-48 flex-shrink-0" : "aspect-square"}`}>
                           <img src={product.image} alt={product.name} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
@@ -411,50 +411,72 @@ function SubscriptionForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [error, setError] = useState("");
-  const handleSubmit = (e: React.FormEvent) => {
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
-    if (!name.trim()) {
-      setError("Please enter your name");
-      return;
-    }
-    if (name.trim().length > 100) {
-      setError("Name must be less than 100 characters");
-      return;
-    }
-    if (!email.trim()) {
-      setError("Please enter your email");
-      return;
-    }
+
+    if (!name.trim()) return setError("Please enter your name");
+    if (!email.trim()) return setError("Please enter your email");
+
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(email.trim())) {
-      setError("Please enter a valid email address");
-      return;
+    if (!emailRegex.test(email)) {
+      return setError("Invalid email address");
     }
-    setIsSubmitting(true);
-    setTimeout(() => {
-      setIsSubmitting(false);
+
+    try {
+      setIsSubmitting(true);
+
+      const res = await fetch("/api/subscribe", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, email }),
+      });
+
+      const data = await res.json();
+
+      if (!res.ok) {
+        throw new Error(data.error || "Failed");
+      }
+
       setIsSubmitted(true);
       setName("");
       setEmail("");
-    }, 1000);
+    } catch (err: any) {
+      setError(err.message);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
+
   if (isSubmitted) {
-    return <div className="flex items-center gap-3 text-primary">
-        <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-        </svg>
-        <span className="font-medium">Thank you for subscribing!</span>
-      </div>;
+    return (
+      <div className="flex items-center gap-3 text-primary">
+        <span>✅ Thank you for subscribing!</span>
+      </div>
+    );
   }
-  return <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 flex-1 lg:max-w-xl">
-      <input type="text" placeholder="Your Name" value={name} onChange={e => setName(e.target.value)} className="px-4 py-2.5 bg-background border border-border rounded-full text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all text-sm" maxLength={100} />
-      <input type="email" placeholder="Your Email" value={email} onChange={e => setEmail(e.target.value)} className="px-4 py-2.5 bg-background border border-border rounded-full text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all text-sm flex-1" maxLength={255} />
-      <button type="submit" disabled={isSubmitting} className="px-6 py-2.5 bg-primary text-primary-foreground font-medium rounded-full hover:bg-primary/90 transition-colors disabled:opacity-50 text-sm whitespace-nowrap">
+
+  return (
+    <form onSubmit={handleSubmit} className="flex gap-3 shadow-sm p-4 bg-black rounded-lg ">
+      <input
+        value={name}
+        onChange={(e) => setName(e.target.value)}
+        placeholder="Your Name"
+        className="p-3 rounded-md"
+      />
+      <input
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+        placeholder="Your Email"
+        className="p-3 rounded-md"
+      />
+      <button disabled={isSubmitting} className="bg-white p-3 rounded-md">
         {isSubmitting ? "..." : "Subscribe"}
       </button>
-      {error && <p className="text-destructive text-xs sm:absolute sm:bottom-0 sm:left-0">{error}</p>}
-    </form>;
+      {error && <p className="text-red-500">{error}</p>}
+    </form>
+  );
 }
 function ProductsFAQAccordion() {
   const faqs = [{

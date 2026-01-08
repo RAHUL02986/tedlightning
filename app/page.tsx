@@ -51,17 +51,17 @@ export default function Home() {
         <WhoWeServeSection />
 
        
-        {/* <ProcessSection />
+       {/* <ProcessSection /> */}
 
         <TestimonialsSection />
 
-        <ContactSection />
+        {/* <ContactSection /> */}
 
-        <FAQSection
+        {/* <FAQSection
           faqs={homepageFAQs}
           subtitle="Common questions from distributors, contractors, and project managers."
           showViewAll
-        /> */}
+        />  */}
       </main>
       <Footer />
     </div>

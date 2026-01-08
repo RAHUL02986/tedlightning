@@ -2110,6 +2110,13 @@ img{
 .bg-white\/90{
   background-color: rgb(255 255 255 / 0.9);
 }
+.bg-black{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+}
+.bg-black\/5{
+  background-color: rgb(0 0 0 / 0.05);
+}
 .bg-gradient-to-b{
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -2827,6 +2834,10 @@ img{
 }
 .text-white\/80{
   color: rgb(255 255 255 / 0.8);
+}
+.text-red-500{
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity, 1));
 }
 .underline-offset-4{
   text-underline-offset: 4px;
